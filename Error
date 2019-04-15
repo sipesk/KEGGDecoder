@@ -1,5 +1,1236 @@
-KEGG-expander.py:251: FutureWarning: read_table is deprecated, use read_csv instead, passing sep='\t'.
-  genome = pd.read_table(file_in, index_col=0)
+python3 KEGG-decoder.py /home/lloydlab/Desktop/KBaseKatie/Bins_from_Kbase/KEGG_decoder/HighqualityMAGs/all_ghostkoala_output.fa april12-keggdecoder.txt
+(base) lloydlab@barbara:~/BioData-master/KEGGDecoder$ hmmsearch --tblout april12_expanderv0.5.tbl -T 3 HMM_Models/expander_dbv0.5.hmm /home/lloydlab/Desktop/KBaseKatie/Bins_from_Kbase/KEGG_decoder/HighqualityMAGs/all_ghostkoala_output.fa
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.2.1 (June 2018); http://hmmer.org/
+# Copyright (C) 2018 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  HMM_Models/expander_dbv0.5.hmm
+# target sequence database:        /home/lloydlab/Desktop/KBaseKatie/Bins_from_Kbase/KEGG_decoder/HighqualityMAGs/all_ghostkoala_output.fa
+# per-seq hits tabular output:     april12_expanderv0.5.tbl
+# sequence reporting threshold:    score >= 3
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       DMSPlyase_dddP  [M=421]
+Accession:   14591
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (421 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DMSPlyase_dddD  [M=791]
+Accession:   25993
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (791 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DMSPlyase_dddW  [M=168]
+Accession:   274874
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (168 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DMSPsynthase_dysB  [M=338]
+Accession:   4254
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (338 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DMSPlyase_dddK  [M=134]
+Accession:   94923
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (134 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Aminotran_5  [M=371]
+Accession:   PF00266.18
+Description: Aminotransferase class-V
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (371 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Ammonium_transp  [M=399]
+Accession:   PF00909.20
+Description: Ammonium Transporter Family
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (399 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       AnfG_VnfG  [M=111]
+Accession:   PF03139.14
+Description: Vanadium/alternative nitrogenase delta subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (111 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Bac_rhodopsin  [M=223]
+Accession:   PF01036.17
+Description: Bacteriorhodopsin-like protein
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (223 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DMSP_lyase  [M=163]
+Accession:   PF16867.4
+Description: Dimethlysulfonioproprionate lyase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (163 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Oxidored_nitro  [M=399]
+Accession:   PF00148.18
+Description: Nitrogenase component 1 type Oxidoreductase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (399 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       PPC  [M=70]
+Accession:   PF04151.14
+Description: Bacterial pre-peptidase C-terminal domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (70 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       PepSY  [M=63]
+Accession:   PF03413.18
+Description: Peptidase propeptide and YPEB domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (63 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_A8  [M=135]
+Accession:   PF01252.17
+Description: Signal peptidase (SPase) II
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (135 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_C11  [M=360]
+Accession:   PF03415.13
+Description: Clostripain family
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (360 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_C25  [M=378]
+Accession:   PF01364.17
+Description: Peptidase family C25
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (378 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M1  [M=236]
+Accession:   PF01433.19
+Description: Peptidase family M1 domain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (236 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M14  [M=289]
+Accession:   PF00246.23
+Description: Zinc carboxypeptidase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (289 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M20  [M=207]
+Accession:   PF01546.27
+Description: Peptidase family M20/M25/M40
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (207 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M24  [M=209]
+Accession:   PF00557.23
+Description: Metallopeptidase family M24
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (209 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M28  [M=198]
+Accession:   PF04389.16
+Description: Peptidase family M28
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (198 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M29  [M=406]
+Accession:   PF02073.14
+Description: Thermophilic metalloprotease (M29)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (406 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M3  [M=458]
+Accession:   PF01432.19
+Description: Peptidase family M3
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (458 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M50  [M=250]
+Accession:   PF02163.21
+Description: Peptidase family M50
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (250 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M55  [M=264]
+Accession:   PF04951.12
+Description: D-aminopeptidase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (264 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_M61  [M=118]
+Accession:   PF05299.11
+Description: M61 glycyl aminopeptidase
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (118 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_S24  [M=70]
+Accession:   PF00717.22
+Description: Peptidase S24-like
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (70 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       Peptidase_S26  [M=138]
+Accession:   PF10502.8
+Description: Signal peptidase, peptidase S26
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (138 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       TIGR01861  [M=513]
+Accession:   TIGR01861
+Description: ANFD: nitrogenase iron-iron protein, alpha chain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (513 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       TIGR02929  [M=109]
+Accession:   TIGR02929
+Description: anfG_nitrog: Fe-only nitrogenase, delta subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (109 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       TIGR02931  [M=461]
+Accession:   TIGR02931
+Description: anfK_nitrog: Fe-only nitrogenase, beta subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (461 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       TIGR03753  [M=260]
+Accession:   TIGR03753
+Description: blh_monoox: beta-carotene 15,15'-monooxygenase, Brp/Blh family
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (260 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       TIGR01860  [M=461]
+Accession:   TIGR01860
+Description: VNFD: nitrogenase vanadium-iron protein, alpha chain
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (461 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       TIGR02930  [M=109]
+Accession:   TIGR02930
+Description: vnfG_nitrog: V-containing nitrogenase, delta subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (109 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       TIGR02932  [M=457]
+Accession:   TIGR02932
+Description: vnfK_nitrog: V-containing nitrogenase, beta subunit
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (457 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       amphibactin1  [M=5866]
+Accession:   1544
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (5866 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.03u 0.00s 00:00:00.03 Elapsed: 00:00:00.02
+# Mc/sec: 0.00
+//
+Query:       amphibactin2  [M=1501]
+Accession:   27549
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1501 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DesA  [M=486]
+Accession:   2219
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (486 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DesB  [M=447]
+Accession:   2732
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (447 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DesC  [M=192]
+Accession:   9429
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (192 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DesD  [M=806]
+Accession:   51934
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (806 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+Query:       DsrD  [M=64]
+Accession:   PF08679.11
+Description: Dissimilatory sulfite reductase D (DsrD)
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (64 nodes)
+Target sequences:                      12587  (0 residues searched)
+Passed MSV filter:                         0  (0); expected 251.7 (0.02)
+Passed bias filter:                        0  (0); expected 251.7 (0.02)
+Passed Vit filter:                         0  (0); expected 12.6 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.1 (1e-05)
+Initial search space (Z):              12587  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.01u 0.00s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: 0.00
+//
+[ok]
+(base) lloydlab@barbara:~/BioData-master/KEGGDecoder$ python3 KEGG-expander.py april12-keggdecoder.txt 
+Amphibactin/                 HMM_Models/
+april12_expanderv0.5.tbl     KEGG-decoder.py
+april12-keggdecoder.txt      KEGG-expander.py
+Decode_and_Expand.py         KOALA_definitions.txt
+DesferrioxamineBiosynthesis/ MethylphosphonateSynthase/
+DMSPLyase/                   Pfam_definitions.txt
+DMSPSynthase/                PreviousKEGGDecoderVersions/
+.DS_Store                    README.md
+function_heatmap.svg         tbl_kegg_expander0.5.tbl
+.git/                        
+(base) lloydlab@barbara:~/BioData-master/KEGGDecoder$ python3 KEGG-expander.py april12_expanderv0.5.tbl april12-expander-hmm.list
 Traceback (most recent call last):
   File "KEGG-expander.py", line 255, in <module>
     ax = sns.heatmap(genome, cmap=plt.cm.YlOrRd, linewidths=2, linecolor='k', square=True, xticklabels=True, yticklabels=True)
@@ -10,3 +1241,22 @@ Traceback (most recent call last):
   File "/home/lloydlab/.local/lib/python3.6/site-packages/seaborn/matrix.py", line 204, in _determine_cmap_params
     calc_data = plot_data.data[~np.isnan(plot_data.data)]
 TypeError: ufunc 'isnan' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+(base) lloydlab@barbara:~/BioData-master/KEGGDecoder$ 
+ python3 Decode_and_Expand.py /home/lloydlab/Desktop/KBaseKatie/Bins_from_Kbase/KEGG_decoder/HighqualityMAGs/all_ghostkoala_output.fa april12-expander-hmm.list 
+Traceback (most recent call last):
+  File "Decode_and_Expand.py", line 28, in <module>
+    koala = pd.read_table(open(str(arg_dict['KOALA LIST']), "r"), index_col=0)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/parsers.py", line 678, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/parsers.py", line 446, in _read
+    data = parser.read(nrows)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/parsers.py", line 1036, in read
+    ret = self._engine.read(nrows)
+  File "/usr/local/lib/python3.6/dist-packages/pandas/io/parsers.py", line 1848, in read
+    data = self._reader.read(nrows)
+  File "pandas/_libs/parsers.pyx", line 876, in pandas._libs.parsers.TextReader.read
+  File "pandas/_libs/parsers.pyx", line 891, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas/_libs/parsers.pyx", line 945, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 932, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 2112, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 1 fields in line 3, saw 2
